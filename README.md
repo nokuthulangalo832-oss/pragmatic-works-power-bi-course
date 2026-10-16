@@ -1,31 +1,43 @@
-# 📊 Power BI Beginner to Pro (2026 Edition) — Course Tracking & Projects
-This repository houses my hands-on projects, notes, and dashboards completed during the **Free Event: Power BI Beginner to Pro 2026 Edition** tutorial hosted by **Pragmatic Works**.
+# 📊 Power BI Beginner to Pro (2026 Edition) — Completed Course Project
+
+This repository houses my completed hands-on project and dashboards built during the **Free Event: Power BI Beginner to Pro 2026 Edition** intensive tutorial hosted by **Pragmatic Works**.
+
 ---
-## 🏦 Active Project: Bank Branch Location Strategy
+
+## 🏦 Completed Project: Bank Branch Location Strategy
 **Scenario:** Acted as a Data Analyst tasked by bank leadership to identify optimal geographic regions for expanding and opening new bank branches based on federal deposit data.
+
 * **Data Source:** Live Federal Deposit Insurance Corporation web data ([fdic.gov](https://fdic.gov))
-* **Methods Used:**
-  * Connected Power BI directly to the FDIC web download link (`Get Data` -> `Web`).
-  * Cleansed, filtered, and structured regulatory banking records using `Power Query`.
-* **Project Development Framework:**
-  * [x] **Stage 1: Ingestion & Initial Visual Baseline** — Connected live data and mapped initial state volumes.
-  * [ ] **Stage 2: Advanced Transformations & Modeling** — *Current Status: 🔄 Work in Progress*
-  * [ ] **Stage 3: DAX & Analytical Layer**
-  * [ ] **Stage 4: Dashboard Formatting & Visual Polish**
-  * [ ] **Stage 5: Final Review & Insights Generation**
-* **Current Visualization Configuration (Draft):**
-  * *Chart Type:* Stacked Bar Chart
-  * *X-Axis (Categories):* State & Bank Name (Drill-down layout enabled)
-  * *Y-Axis (Values):* Count of Bank Names
-> 💡 *The project file `FDIC_Bank_Location_Analysis.pbix` is tracked above. A final dashboard screenshot will be displayed here once Stage 4 visual formatting is complete!*
+* **Methods & Architecture Implemented:**
+  * **Data Ingestion:** Connected Power BI Desktop directly to the live FDIC web URL endpoint.
+  * **ETL & Data Cleansing:** Structured, filtered, and cleaned regulatory banking records inside `Power Query`.
+  * **Data Modeling:** Generated a custom, unbroken Date dimension table and constructed active **One-to-Many relationships** to establish a robust, industry-standard Star Schema model.
+  * **Report Design:** Applied an executive global color theme to style the analytics canvas.
+
+* **Project Development Status:**
+  * [x] **Stage 1: Data Connection & Ingestion** — Linked live FDIC data sources.
+  * [x] **Stage 2: Advanced Transformations & Modeling** — Established calendar structures and relational modeling.
+  * [x] **Stage 3: Core Report Development** — Programmed interactive Stacked Column and Stacked Bar charts.
+  * [x] **Stage 4: Tabular Analysis** — Deployed matrix visuals for granular data drill-downs.
+  * [x] **Stage 5: Visual Styling** — Implemented cohesive report layout and theme formatting.
+
+* **Final Desktop Dashboard Layout:**
+  * **Geographic Volume Distributions:** High-level column and bar charts comparing branch footprint across individual states.
+  * **Granular Matrix Metrics:** Comprehensive tabular matrices grouping counts of bank records dynamically by location.
+  * **Relational Backbone:** Fully independent Calendar lookup table properly mapped to core data rows via One-to-Many linkages.
+
+> 💡 *The finalized local project file `FDIC_Bank_Location_Analysis.pbix` is tracked above and ready for local desktop analysis.*
+
 ---
-## 📚 Course Curriculum Tracking
+
+## 📚 Course Curriculum Completed
+
 - [x] **Module 1: Connecting & Ingesting Data** — Connected live to the FDIC web URL source.
 - [x] **Module 2: Data Cleansing & Transformation** — Performed ETL processes using Power Query.
-- [ ] **Module 3: Data Modeling** — Creating relationships between data tables.
-- [ ] **Module 4: DAX Basics** — Writing Data Analysis Expressions for calculated metrics.
-- [ ] **Module 5: Data Visualization** — Designing interactive dashboards.
-- [ ] **Module 6: Deployment** — Publishing solutions to the Microsoft Fabric / Power BI Service ecosystem.
+- [x] **Module 3: Data Modeling** — Created standard relationships between data tables.
+- [x] **Module 4: DAX Basics** — Implemented calculated metrics for banking entries.
+- [x] **Module 5: Data Visualization** — Designed interactive matrix layouts and charts utilizing a global theme.
+
 ## 🛠️ Tools & Technologies Used
 * **Power BI Desktop** (Data Modeling & Visualisation)
 * **Power Query** (ETL - Extract, Transform, Load)
