@@ -27,7 +27,8 @@ This repository houses my completed hands-on project and dashboards built during
   * **Relational Backbone:** Fully independent Calendar lookup table properly mapped to core data rows via One-to-Many linkages.
 
 > 💡 *The finalized local project file `FDIC_Bank_Location_Analysis.pbix` is tracked above and ready for local desktop analysis.*
-
+### 🖼️ Desktop Analytics View
+![Final Dashboard Layout](dashboard-screenshot.png)
 ---
 
 ## 📚 Course Curriculum Completed
